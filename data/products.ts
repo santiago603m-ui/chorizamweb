@@ -62,14 +62,6 @@ export const featuredProduct: Product = {
 
 export const products: Product[] = [
   {
-    id: "chorizo-clasico",
-    name: "Chorizo Clásico",
-    description: "El sabor tradicional que todos aman, asado al carbón.",
-    price: 12000,
-    size: "15 cm",
-    image: "/images/chorizo-clasico.jpg",
-  },
-  {
     id: "combo-arepa",
     name: "Combo con Arepa",
     description: "Chorizo premium acompañado de arepa de maíz recién hecha.",
@@ -101,16 +93,8 @@ export const products: Product[] = [
     description: "Chorizo, arepa, papa y queso costeño. La experiencia total.",
     price: 28000,
     size: "15 cm",
-    image: "/images/combo-completo.jpg",
+    image: "/assets/Nosotros.png",
     badge: "Recomendado",
-  },
-  {
-    id: "chorizo-picante",
-    name: "Chorizo Picante",
-    description: "Para los amantes del picante, con ají especial de la casa.",
-    price: 14000,
-    size: "15 cm",
-    image: "/images/chorizo-picante.jpg",
   },
 ];
 
