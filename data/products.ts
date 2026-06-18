@@ -84,7 +84,7 @@ export const products: Product[] = [
     description: "Chorizo al carbón con papa criolla dorada y salsa especial.",
     price: 20000,
     size: "15 cm",
-    image: "/images/combo-papa.jpg",
+    image: "/assets/PapaSalada.png",
   },
   {
     id: "combo-queso",
