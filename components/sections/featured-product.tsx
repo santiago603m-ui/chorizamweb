@@ -28,11 +28,11 @@ export function FeaturedProduct() {
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
                   backgroundColor: "oklch(0.40 0.12 30)",
-                  backgroundImage: `url(${image})`,
+                  backgroundImage: "url('/assets/ProductoPrincipal.png')",
                 }}
               />
               <div className="absolute inset-0 bg-gradient-to-r from-transparent to-card/20 lg:bg-gradient-to-l" />
-              
+
               {/* Badge */}
               {badge && (
                 <div className="absolute top-6 left-6">
