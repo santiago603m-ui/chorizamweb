@@ -28,7 +28,8 @@ export function FeaturedProduct() {
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
                   backgroundColor: "oklch(0.40 0.12 30)",
-                  backgroundImage: "url('/assets/ProductoPrincipal.png')",
+                  backgroundImage: `url('/assets/ProductoPrincipal.png')`,
+                  backgroundPosition: "60%",
                 }}
               />
               <div className="absolute inset-0 bg-gradient-to-r from-transparent to-card/20 lg:bg-gradient-to-l" />

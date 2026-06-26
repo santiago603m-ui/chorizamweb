@@ -84,7 +84,7 @@ export function Hero() {
                 style={{
                   backgroundImage: "url('/assets/FotoHero.png')",
                   backgroundSize: "cover",
-                  backgroundPosition: "65% 50%",
+                  backgroundPosition: "60%"
                 }}
               />
 

@@ -39,7 +39,7 @@ export default function Nosotros() {
             {/* Contenedor principal de la imagen */}
             <div className="group relative w-full aspect-[4/3] sm:aspect-[16/9] overflow-hidden rounded-2xl shadow-2xl ring-4 ring-background border border-border/50">
               <Image
-                src="/assets/ComboCompleto.png"
+                src="/assets/BannerNosotros.png"
                 alt="El equipo de CHORIZAM"
                 fill
                 className="object-cover transition-transform hover:scale-105 duration-700"
@@ -54,6 +54,39 @@ export default function Nosotros() {
             artesanales, manteniendo viva la tradición colombiana con cada
             preparación al carbón.
           </p>
+        </div>
+      </section>
+
+      {/* Video Section */}
+      <section className="py-12 sm:py-16">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10 sm:mb-14">
+            <h2 className="text-3xl sm:text-4xl font-bold text-foreground tracking-tight">
+              Vive la Experiencia
+            </h2>
+            <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
+              Descubre cómo preparamos nuestros auténticos chorizos al carbón,
+              cuidando cada detalle para ofrecerte el mejor sabor.
+            </p>
+          </div>
+
+          <div className="relative group w-full max-w-4xl mx-auto">
+            {/* Background glowing effect */}
+            <div className="absolute -inset-2 bg-gradient-to-r from-primary/40 to-accent/40 rounded-[2rem] blur-xl opacity-50 group-hover:opacity-80 transition-opacity duration-700" />
+            
+            {/* Video Container */}
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-4 ring-background border border-border/50 bg-card aspect-video">
+              <video
+                src="/assets/Video.mp4"
+                controls
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
         </div>
       </section>
 

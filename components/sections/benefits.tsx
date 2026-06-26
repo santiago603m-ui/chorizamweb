@@ -16,12 +16,12 @@ export function Benefits() {
     <section id="beneficios" className="py-20 bg-secondary/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="text-center mb-12">
+        <div className="mt-0 text-center mb-12">
           <BadgeCustom variant="default">Por Qué Elegirnos</BadgeCustom>
-          <h2 className="mt-4 text-3xl sm:text-4xl font-bold text-foreground">
+          <h2 className="mt-8 text-3xl sm:text-4xl font-bold text-foreground">
             Nuestra Diferencia
           </h2>
-          <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
+          <p className="mt-6 text-muted-foreground max-w-2xl mx-auto">
             En CHORIZAM nos dedicamos a crear la mejor experiencia de chorizos
             artesanales, manteniendo viva la tradición colombiana.
           </p>
@@ -37,11 +37,11 @@ export function Benefits() {
               <div className="mb-4 inline-flex items-center justify-center w-14 h-14 rounded-xl bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
                 {iconMap[benefit.icon]}
               </div>
-              
+
               <h3 className="text-lg font-semibold text-card-foreground mb-2">
                 {benefit.title}
               </h3>
-              
+
               <p className="text-sm text-muted-foreground leading-relaxed">
                 {benefit.description}
               </p>
