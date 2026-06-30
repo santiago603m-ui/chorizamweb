@@ -6,7 +6,7 @@ import { BadgeCustom } from "@/components/ui/badge-custom";
 import { ArrowRight, Flame } from "lucide-react";
 
 export function Hero() {
-  const { tagline, title, subtitle, ctaText } = heroContent;
+  const { tagline, title, subtitle, notice, ctaText } = heroContent;
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
@@ -38,6 +38,13 @@ export function Hero() {
             <p className="font-heading text-base sm:text-lg md:text-xl text-muted-foreground max-w-xl mx-auto lg:mx-0 leading-relaxed">
               {subtitle}
             </p>
+            {notice && (
+              <div className="bg-primary/10 border border-primary/20 rounded-lg px-4 py-3 max-w-xl mx-auto lg:mx-0">
+                <p className="text-primary text-sm sm:text-base font-medium">
+                  {notice}
+                </p>
+              </div>
+            )}
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button
